@@ -2,7 +2,7 @@ package ex02;
 
 public class TypeConversion {
     public static void main(String[] args) {
-        int;
+        int i;
         double f;
 
         f = 1 / 5;

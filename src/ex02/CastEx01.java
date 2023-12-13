@@ -7,7 +7,7 @@ public class CastEx01 {
 
         n1 = 2;
 
-        n1 = d1; //업 캐스팅(작은걸 -> 큰걸로)
+        //n1 = d1; //업 캐스팅(작은걸 -> 큰걸로)
         d1 = n1; // 묵시적 형변환
         System.out.println(d1);
 
