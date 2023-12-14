@@ -13,12 +13,13 @@ public class Factorial {
 
         for (int i =1; i <= n; i++){
             fact = fact * i;
+        }
 
             System.out.println(n + "!의 팩토리얼은 " + fact + "입니다.");
 
             //System.out.println("%d!은 %d입니다. \n", n,fact);
 
-        }
+
 
     }
 }
