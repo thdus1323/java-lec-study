@@ -11,7 +11,7 @@ public class MemEx02{
         System.out.println("2년 지남");
         System.out.println("3년 지남");
 
-       Person21 p2 = new Person21();
+       Person2 p2 = new Person2();
         System.out.println(p2.age);
         System.out.println(p2.gender);
 
