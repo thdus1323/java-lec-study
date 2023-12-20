@@ -1,9 +1,11 @@
 package ex04;
 
 public class DeskLampTest {
-    private boolean isOn;
-
-    public void turnOn() { isOn = true; }
-    public void turnOff() { isOn = false;}
-    public String toS
+    public static void main(String[] args) {
+        DeskLamp myLamp = new DeskLamp();
+        myLamp.turnOn();
+        System.out.println(myLamp);
+        myLamp.turnOff();
+        System.out.println(myLamp);
+    }
 }
