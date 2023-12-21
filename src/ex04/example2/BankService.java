@@ -5,7 +5,7 @@ import ex04.example2.model.Account;
 //트랜잭션 관리
 public class BankService {
 
-    public static void 출금(Account withdrawAccount, int amount){
+    public static void 출금(Account withdrawAccount, long amount){
         if(amount <= 0){
             System.out.println("0원 이하 금액은 출금할 수 없습니다.");
             return;
