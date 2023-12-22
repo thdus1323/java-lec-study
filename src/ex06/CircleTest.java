@@ -24,10 +24,13 @@ class Circle extends Shape{
     }
 }
 
+
 public class CircleTest {
     public static void main(String[] args) {
-        Circle circle = new Circle(10);
-        circle.getArea();
+        Circle a = new Circle(10);
+        //커스텀 자료형(Circle) 변수(a) = heap에 Circle을 띄운다.쓰기위해
+        a.getArea();
+        //그래서 circle의 getArea을 쓴다.
 
     }
 }
