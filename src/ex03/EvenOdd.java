@@ -16,7 +16,5 @@ public class EvenOdd {
         }else{
             System.out.println("홀수");
         }
-
-
     }
 }
