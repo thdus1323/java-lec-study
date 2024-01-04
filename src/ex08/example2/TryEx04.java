@@ -30,10 +30,10 @@ class Controller2 {
 public class TryEx04 {
     public static void main(String[] args) {
         Controller2 con = new Controller2();
-        try {
+        try { // 정상실행
             con.join("ssa", "1234");
             System.out.println("회원가입 성공");
-        } catch (RuntimeException e) {
+        } catch (RuntimeException e) {//예외를 여기서 잡는다
             System.out.println(e.getMessage());
         }
 
