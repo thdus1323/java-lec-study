@@ -8,6 +8,7 @@ import java.net.Socket;
 public class Client {
     public static void main(String[] args) {
         //localhost = 127.0.0.1(루프백)_본인 것?
+        // => 현재 프로그램이 실행되는 로컬 호스트의 이름
         try {
             Socket socket = new Socket("127.0.0.1", 10000);
             //버퍼의 타겟이 소캣?? 키보드
